@@ -1,0 +1,33 @@
+# File: .gitignore
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+*/venv/
+*/env/
+
+# Instance folder (contains runtime data, potentially SQLite db)
+instance/
+
+# Test Client (usually not deployed)
+test_client.py
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+*.iml
